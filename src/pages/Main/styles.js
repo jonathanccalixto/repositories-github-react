@@ -20,6 +20,10 @@ export const Container = styled.div`
   }
 `;
 
-export const Form = styled.form``;
+export const Form = styled.form`
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+`;
 
 export const SubmitButton = styled.button``;
