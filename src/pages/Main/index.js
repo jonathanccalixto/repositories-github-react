@@ -13,6 +13,12 @@ export default class Main extends Component {
     this.setState({ newRepo: e.target.value });
   };
 
+  handleSubmit = e => {
+    e.preventDefault();
+
+    console.log(this.state.newRepo);
+  };
+
   render() {
     const { newRepo } = this.state;
 
@@ -23,7 +29,7 @@ export default class Main extends Component {
           Repositórios
         </h1>
 
-        <Form onSubmit={() => {}}>
+        <Form onSubmit={this.handleSubmit}>
           <input
             type="text"
             placeholder="Adicionar repositório"
