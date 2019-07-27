@@ -24,6 +24,14 @@ export const Form = styled.form`
   display: flex;
   flex-direction: row;
   margin-top: 30px;
+
+  input {
+    border: 1px solid #eee;
+    border-radius: 4px;
+    flex: 1;
+    font-size: 16px;
+    padding: 10px 15px;
+  }
 `;
 
 export const SubmitButton = styled.button``;
