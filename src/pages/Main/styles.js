@@ -7,6 +7,13 @@ export const Container = styled.div`
   margin: 80px auto;
   max-width: 700px;
   padding: 30px;
+
+  h1 {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+  }
 `;
 
 export const Form = styled.form``;
