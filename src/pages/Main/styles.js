@@ -14,6 +14,10 @@ export const Container = styled.div`
     flex-direction: row;
     font-size: 20px;
   }
+
+  svg {
+    margin-right: 10px;
+  }
 `;
 
 export const Form = styled.form``;
