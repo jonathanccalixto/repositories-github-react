@@ -16,4 +16,14 @@ export default createGlobalStyle`
     -webkit-font-smoothing: antialiased !important;
     background: #7159c1;
   }
+
+  body, input, button {
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+  }
+
+  button {
+    cursor: pointer;
+  }
 `;
