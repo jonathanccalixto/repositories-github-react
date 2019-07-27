@@ -34,4 +34,16 @@ export const Form = styled.form`
   }
 `;
 
-export const SubmitButton = styled.button``;
+export const SubmitButton = styled.button`
+  /* button style */
+  background: #7159c1;
+  border: 0;
+  border-radius: 4px;
+  margin-left: 10px;
+  padding: 0 15px;
+
+  /* button text-align */
+  align-items: center;
+  display: flex;
+  justify-content: center;
+`;
