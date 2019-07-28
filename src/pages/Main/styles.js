@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 
 export const Container = styled.div`
   background: #fff;
@@ -31,6 +31,16 @@ export const Form = styled.form`
     flex: 1;
     font-size: 16px;
     padding: 10px 15px;
+  }
+`;
+
+const rotate = keyframes`
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
   }
 `;
 
