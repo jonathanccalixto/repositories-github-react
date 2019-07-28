@@ -13,7 +13,13 @@ export default class Main extends Component {
   };
 
   // Loads the data from LocalStorage
-  componentDidMount() {}
+  componentDidMount() {
+    const repositories = localStorage.getItem('repositories');
+
+    if (repositories) {
+      this.setState({ repositories: JSON.parse(repositories) });
+    }
+  }
 
   // Save the data in LocalStorage
   componentDidUpdate(_, prevState) {
