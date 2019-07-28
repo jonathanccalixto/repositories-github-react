@@ -48,4 +48,9 @@ export const SubmitButton = styled.button.attrs({
   align-items: center;
   display: flex;
   justify-content: center;
+
+  &[disabled] {
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
 `;
