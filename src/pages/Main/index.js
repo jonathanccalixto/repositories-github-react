@@ -37,7 +37,7 @@ export default class Main extends Component {
   };
 
   render() {
-    const { newRepo } = this.state;
+    const { newRepo, loading } = this.state;
 
     return (
       <Container>
@@ -54,7 +54,7 @@ export default class Main extends Component {
             onChange={this.handleInputChange}
           />
 
-          <SubmitButton>
+          <SubmitButton loading={loading}>
             <FaPlus color="#FFF" size={14} />
           </SubmitButton>
         </Form>
