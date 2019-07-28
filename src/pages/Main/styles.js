@@ -84,5 +84,10 @@ export const List = styled.ul`
     flex-direction: row;
     justify-content: space-between;
     padding: 15px 0;
+
+    a {
+      color: #7159c1;
+      text-decoration: none;
+    }
   }
 `;
