@@ -9,6 +9,7 @@ export default class Main extends Component {
   state = {
     newRepo: '',
     repositories: [],
+    loading: false,
   };
 
   handleInputChange = e => {
@@ -17,6 +18,8 @@ export default class Main extends Component {
 
   handleSubmit = async e => {
     e.preventDefault();
+
+    this.setState({ loading: true });
 
     const { newRepo, repositories } = this.state;
 
@@ -29,6 +32,7 @@ export default class Main extends Component {
     this.setState({
       repositories: [...repositories, data],
       newRepo: '',
+      loading: false,
     });
   };
 
