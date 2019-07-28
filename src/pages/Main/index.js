@@ -12,6 +12,12 @@ export default class Main extends Component {
     loading: false,
   };
 
+  // Loads the data from LocalStorage
+  componentDidMount() {}
+
+  // Save the data in LocalStorage
+  componentDidUpdate() {}
+
   handleInputChange = e => {
     this.setState({ newRepo: e.target.value });
   };
