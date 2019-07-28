@@ -16,7 +16,13 @@ export default class Main extends Component {
   componentDidMount() {}
 
   // Save the data in LocalStorage
-  componentDidUpdate() {}
+  componentDidUpdate(_, prevState) {
+    const { repositories } = this.state;
+
+    if (prevState.repositories !== repositories) {
+      localStorage.setItem('repositories', JSON.stringify(repositories));
+    }
+  }
 
   handleInputChange = e => {
     this.setState({ newRepo: e.target.value });
