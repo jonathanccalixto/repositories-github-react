@@ -25,4 +25,13 @@ export const Owner = styled.header`
     font-size: 24px;
     margin-top: 10px;
   }
+
+  p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.4;
+    margin-top: 5px;
+    max-width: 400px;
+    text-align: center;
+  }
 `;
