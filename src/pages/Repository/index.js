@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 
 import api from '../../services/api';
 
+import Container from '../../components/Container';
 import { Loading } from './styles';
 
 export default class Repository extends Component {
@@ -49,6 +50,6 @@ export default class Repository extends Component {
       return <Loading>Carregando</Loading>;
     }
 
-    return <h1>Repository</h1>;
+    return <Container>Repository</Container>;
   }
 }
