@@ -81,6 +81,12 @@ export const IssueList = styled.ul`
           }
         }
       }
+
+      p {
+        color: #999;
+        font-size: 12px;
+        margin-top: 5px;
+      }
     }
   }
 `;
