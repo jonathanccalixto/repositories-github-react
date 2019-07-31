@@ -68,6 +68,19 @@ export const IssueList = styled.ul`
     div {
       flex: 1;
       margin-left: 15px;
+
+      strong {
+        font-size: 16px;
+
+        a {
+          color: #333;
+          text-decoration: none;
+
+          &:hover {
+            color: #7159c1;
+          }
+        }
+      }
     }
   }
 `;
