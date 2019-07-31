@@ -42,4 +42,9 @@ export const Owner = styled.header`
   }
 `;
 
-export const IssueList = styled.ul``;
+export const IssueList = styled.ul`
+  border-top: 1px solid #eee;
+  list-style: none;
+  margin-top: 30px;
+  padding-top: 30px;
+`;
