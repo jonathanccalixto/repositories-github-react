@@ -33,6 +33,8 @@ export default class Repository extends Component {
   }
 
   render() {
+    const { repository, issues, loading } = this.state;
+
     return <h1>Repository</h1>;
   }
 }
