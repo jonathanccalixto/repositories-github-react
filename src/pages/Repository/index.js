@@ -4,6 +4,12 @@ import api from '../../services/api';
 // import { Container } from './styles';
 
 export default class Repository extends Component {
+  state = {
+    repository: {},
+    issues: [],
+    loading: true,
+  };
+
   async componentDidMount() {
     const { match } = this.props;
 
@@ -19,8 +25,11 @@ export default class Repository extends Component {
       }),
     ]);
 
-    console.log(repository);
-    console.log(issues);
+    this.setState({
+      repository: repository.data,
+      issues: issues.data,
+      loading: false,
+    });
   }
 
   render() {
