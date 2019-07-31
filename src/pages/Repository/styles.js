@@ -64,5 +64,10 @@ export const IssueList = styled.ul`
       height: 36px;
       width: 36px;
     }
+
+    div {
+      flex: 1;
+      margin-left: 15px;
+    }
   }
 `;
