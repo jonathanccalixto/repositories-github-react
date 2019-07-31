@@ -14,4 +14,10 @@ export const Owner = styled.header`
   align-items: center;
   display: flex;
   flex-direction: column;
+
+  img {
+    border-radius: 50%;
+    margin-top: 20px;
+    width: 120px;
+  }
 `;
