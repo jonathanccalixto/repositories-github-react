@@ -41,3 +41,5 @@ export const Owner = styled.header`
     text-align: center;
   }
 `;
+
+export const IssueList = styled.ul``;
