@@ -20,4 +20,9 @@ export const Owner = styled.header`
     margin-top: 20px;
     width: 120px;
   }
+
+  h1 {
+    font-size: 24px;
+    margin-top: 10px;
+  }
 `;
