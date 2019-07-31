@@ -57,5 +57,12 @@ export const IssueList = styled.ul`
     & + li {
       margin-top: 10px;
     }
+
+    img {
+      border: 2px solid #eee;
+      border-radius: 50%;
+      height: 36px;
+      width: 36px;
+    }
   }
 `;
