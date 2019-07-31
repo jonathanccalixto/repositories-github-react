@@ -47,4 +47,11 @@ export const IssueList = styled.ul`
   list-style: none;
   margin-top: 30px;
   padding-top: 30px;
+
+  li {
+    border: 1px solid #eee;
+    border-radius: 4px;
+    display: flex;
+    padding: 15px 10px;
+  }
 `;
