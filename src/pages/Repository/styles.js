@@ -15,6 +15,12 @@ export const Owner = styled.header`
   display: flex;
   flex-direction: column;
 
+  a {
+    color: #7159c1;
+    font-size: 16px;
+    text-decoration: none;
+  }
+
   img {
     border-radius: 50%;
     margin-top: 20px;
