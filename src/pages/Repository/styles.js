@@ -53,5 +53,9 @@ export const IssueList = styled.ul`
     border-radius: 4px;
     display: flex;
     padding: 15px 10px;
+
+    & + li {
+      margin-top: 10px;
+    }
   }
 `;
